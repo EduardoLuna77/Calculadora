@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculadora</title>
+<link rel="stylesheet" type="text/css" href="calcula.css" />
+<script type="text/javascript" src="calcula.js"></script>
+</head>
+<body>
+	<div class="calculadora">
+			<p id="textoPantalla">0</p>
+			<div class="operaciones">
+				<form action="#">
+					<p>
+						<button class="largo" onClick="retro()"><img src="img/retroceso.png"></button>
+						<button class="largo" onClick="borradoParcial()"><img src="img/borrarparcial.png"></button>
+						<button class="largo" onClick="borradoTotal()"><img src="img/borrartodo.png"></button>
+						<button class="largo" onClick="binario()"><img src="img/binario.png"></button>
+						<button class="largo" onClick="hexadecimal()"><img src="img/hexadecimal.png"></button>
+						<button class="largo" onClick="octal()"><img src="img/octal.png"></button>
+					</p>
+				</form>
+			</div>
+
+			<div class="cientificas">
+				<form action="#" >
+				
+					<p>
+						<button onClick="sen()"><img src="img/seno.png"></button>
+						<button onClick="cuadrado()"><img src="img/cuadrado.png"></button>
+					</p>
+					<p>
+						<button onClick="cos()"><img src="img/coseno.png"/></button>
+						<button onClick="cubo()"><img src="img/cubo.png"/></button>
+					</p>
+					<p>
+						<button onClick="tan()"><img src="img/tangente.png"/></button>
+						<button onClick="operar('si')"><img src="img/exponente.png"/></button>
+					</p>
+					<p>
+						<button onClick="PI()"><img src="img/pi.png"/></button>
+
+					</p>
+				</form>
+			</div>	
+
+			<div class="numeros">
+				<form action="#">
+					<p>
+						<button onClick="numero('7')"><img src="img/siete.png"></button>
+						<button onClick="numero('8')"><img src="img/ocho.png"></button>
+						<button onClick="numero('9')"><img src="img/nueve.png"></button>
+					</p>
+					<p>
+						<button onClick="numero('4')"><img src="img/cuatro.png"></button>
+						<button onClick="numero('5')"><img src="img/cinco.png"></button>
+						<button onClick="numero('6')"><img src="img/seis.png"></button>
+					</p>
+					<p>
+						<button onClick="numero('1')"><img src="img/uno.png"></button>
+						<button onClick="numero('2')"><img src="img/dos.png"></button>
+						<button onClick="numero('3')"><img src="img/tres.png"></button>
+					</p>
+					<p>
+						<button onClick="opuest()"><img src="img/masmenos.png"/></button>
+						<button onClick="numero('0')"><img src="img/cero.png"/></button>
+						<button onClick="numero('.')"><img src="img/punto.png"/></button>
+					</p>
+				</form>
+			</div>
+			
+			
+			<div class="funciones">
+				<form action="#">
+					
+					<p>
+						
+						<button onClick="operar('/')"><img src="img/division.png"></button>
+						<button onClick="raizc()"><img src="img/raiz.png"></button>
+						
+					</p>
+					<p>
+						
+						<button onClick="operar('*')"><img src="img/multiplicacion.png"/></button>
+						<button onClick="porcent()"><img src="img/porcentaje.png"/></button>
+					</p>
+					<p>
+						
+						<button onClick="operar('-')"><img src="img/resta.png"/></button>
+						<button onClick="inve()"><img src="img/inversa.png"/></button>
+					</p>
+					<p>
+						
+						<button onClick="operar('+')"><img src="img/suma.png"/></button>
+						<button onClick="igualar()"><img src="img/igual.png"/></button>
+
+					</p>
+				</form>
+			</div>
+			
+			
+	</div>
+</body>
+</html>
